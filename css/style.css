@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MedievalSharp&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 157, 194);
+    font-family: 'MedievalSharp', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: rgb(12, 73, 170);
+    color: white;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+header h1::first-letter {
+    color: rgb(206, 240, 97);
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+header li a:hover {
+    background-color: rgb(233, 245, 62);
+    color: rgb(20, 20, 20);
+}
+
+#listMovies {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 15px;
+}
+
+.movie {
+    width: 300px;
+    margin: 15px 0;
+}
+
+.movie img {
+    width: 100%;
+}
