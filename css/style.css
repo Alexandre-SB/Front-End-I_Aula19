@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(35, 157, 194);
+    background-color: rgb(97, 205, 248);
     font-family: 'MedievalSharp', cursive;
 }
 
@@ -17,7 +17,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-color: rgb(12, 73, 170);
+    background-color: rgb(3, 56, 141);
     color: white;
     padding: 25px;
 }
