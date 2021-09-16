@@ -58,14 +58,16 @@ header li a:hover {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 15px;
-    margin: 0 15px;
+    margin: 0 15px; /*margin: 0 15px; As fotos ficam com tamanhos diferentes devido suas próprias dimensões*/ 
 }
 
 .movie {
-    width: 300px;
+    /*width: 300px; As fotos ficam com tamanhos diferentes devido suas próprias dimensões*/ 
     margin: 15px 0;
 }
 
 .movie img {
-    width: 100%;
+    /*width: 100%; As fotos ficam com tamanhos diferentes devido suas próprias */
+    width: 500px;
+    height: 300px;
 }
